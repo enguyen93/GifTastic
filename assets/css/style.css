@@ -1,5 +1,12 @@
+body{
+    background-image: url(../images/chicago1.jpg);
+    background-size: auto;
+}
 
-
+p, label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
 p{
     margin: auto;
