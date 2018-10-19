@@ -40,7 +40,7 @@ $("#add-topic").on("click", function (event) {
 //AJAX function that pulls from the Gif API
 function displayGif() {
     let gifSearch = $(this).attr("gameName");
-    let xhr = $.get("http://api.giphy.com/v1/gifs/search?q=" + gifSearch + "&api_key=o4qIILFfilZdOkG4S9V40qa4Rf9CqSMu&limit=10");
+    let xhr = $.get("https://api.giphy.com/v1/gifs/search?q=" + gifSearch + "&api_key=o4qIILFfilZdOkG4S9V40qa4Rf9CqSMu&limit=10");
     xhr.done(function(response) { 
         console.log(response);
         //We get the below data from the above line
